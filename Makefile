@@ -1,5 +1,5 @@
 # define the LIBs
-LIB = -L/usr/local/Cellar/lapack/3.11 -llapack #one should adjust this path to link your local lapack
+LIB = -L/usr/lib/x86_64-linux-gnu -llapack -lblas
 LIB1 = -L./adyo_v1_0 -l:libcwf_cpp.a  
 
 # define the compilers
